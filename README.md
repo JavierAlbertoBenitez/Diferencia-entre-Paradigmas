@@ -13,7 +13,7 @@ En este caso debemos consultar si es verdad que el resto de un número dividido 
 esPar(Numero):- 0 is Numero mod 2
 ```
 
-Podes probar este código [Ingresando Acá]()
+Podes probar este código [Ingresando Acá](https://github.com/JavierAlbertoBenitez/Diferencia-entre-Paradigmas/blob/master/codigos/logico/esPar.pl)
 
 vamos a probar si el 2 y el 3 son números pares.
 
@@ -34,7 +34,7 @@ Para eso debemos crear la función esPar que recibe un número y la función est
 esPar numero = mod numero 2 == 0
 ```
 
-Podes probar este código [Ingresando Acá]()
+Podes probar este código [Ingresando Acá](https://github.com/JavierAlbertoBenitez/Diferencia-entre-Paradigmas/blob/master/codigos/funcional/src/Lib.hs)
 
 al igual que en lógico vamos a consultar si el 2 y el 3 son números pares.
 
@@ -65,6 +65,8 @@ object Numero{
 }
 ```
 
+Podes probar este código [Ingresando Acá](https://github.com/JavierAlbertoBenitez/Diferencia-entre-Paradigmas/blob/master/codigos/objeto/src/metodo1.wlk)
+
 como en el resto de los paradigmas consultaremos si el 2 y 3 son números pares. Para este le manderemos el mensaje esPar al objeto número.
 
 ![consola metodo1](/imagenes/metodo1.png)
@@ -84,6 +86,8 @@ object numero{
 }
 ```
 
+Podes probar este código [Ingresando Acá](https://github.com/JavierAlbertoBenitez/Diferencia-entre-Paradigmas/blob/master/codigos/objeto/src/metodo2.wlk)
+
 Realizamos la misma consulta que el método 1 y obtendremos la misma respuesta.
 
 ![consola metodo2](/imagenes/metodo2.png)
@@ -98,6 +102,8 @@ object numero{
     esPar(num) = num.even()
 }
 ```
+
+Podes probar este código [Ingresando Acá](https://github.com/JavierAlbertoBenitez/Diferencia-entre-Paradigmas/blob/master/codigos/objeto/src/metodo3.wlk)
 
 al realizar la misma consulta que los otros dos métodos obtenemos que
 
