@@ -4,7 +4,7 @@ Veremos la diferencia entre los diferentes paradigmas con un programa sencillo, 
 
 ## LÓGICO
 
-El paradigma lógico se basa en predicados que caracterizan o relacionan a los individuos involucrados y la deducción de las posibles respuestas a una consulta a través de la lógica.
+En el paradigma lógico el programa será una **colección de hechos**, algo que sabemos que es verdad, llamada **base de conocimiento**. Y una **colección de predicados** llamadas reglas, la herramienta que utilizamos para deducir si algo es verdad. Las reglas funcionan en base a la base de conocimientos, devolviendo nuevos valores de verdad. 
 
 En este caso debemos consultar si es verdad que el resto de un número dividido por 2 es cero. Para esto usaremos el is y el mod, el is consulta si es verdad o falso, y el mod devuelve el resto.
 
